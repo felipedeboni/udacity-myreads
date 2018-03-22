@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<div
+  className="list-books"
+>
+  <div
+    className="list-books-title"
+  >
+    <h1>
+      MyReads
+    </h1>
+  </div>
+  <div
+    className="list-books-content"
+  >
+    <Bookshelf
+      books={Array []}
+      id="currentlyReading"
+      key="0"
+      onMoveToShelf={[Function]}
+      title="Currently Reading"
+    />
+    <Bookshelf
+      books={Array []}
+      id="wantToRead"
+      key="1"
+      onMoveToShelf={[Function]}
+      title="Want to Read"
+    />
+    <Bookshelf
+      books={Array []}
+      id="read"
+      key="2"
+      onMoveToShelf={[Function]}
+      title="Read"
+    />
+  </div>
+  <div
+    className="open-search"
+  >
+    <Link
+      replace={false}
+      to="/search"
+    >
+      Add a book
+    </Link>
+  </div>
+</div>
+`;

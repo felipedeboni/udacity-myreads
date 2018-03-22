@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<div
+  className="bookshelf"
+>
+  <h2
+    className="bookshelf-title"
+  >
+    Currently Reading
+  </h2>
+  <div
+    className="bookshelf-books"
+  >
+    <ol
+      className="books-grid"
+    >
+      <li
+        key="IOejDAAAQBAJ"
+      >
+        <Book
+          book={
+            Object {
+              "id": "IOejDAAAQBAJ",
+              "shelf": "currentlyReading",
+            }
+          }
+          height={192}
+          hideNone={false}
+          onMoveToShelf={[Function]}
+          width={128}
+        />
+      </li>
+      <li
+        key="sJf1vQAACAAJ"
+      >
+        <Book
+          book={
+            Object {
+              "id": "sJf1vQAACAAJ",
+              "shelf": "currentlyReading",
+            }
+          }
+          height={192}
+          hideNone={false}
+          onMoveToShelf={[Function]}
+          width={128}
+        />
+      </li>
+    </ol>
+  </div>
+</div>
+`;
